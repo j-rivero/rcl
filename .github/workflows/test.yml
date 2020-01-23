@@ -1,4 +1,4 @@
-name: Test system_metrics_collector
+name: Test rcl coverage
 on:
   pull_request:
   push:
