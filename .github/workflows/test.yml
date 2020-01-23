@@ -29,7 +29,7 @@ jobs:
           flags: unittests
           name: codecov-umbrella
           yml: ./codecov.yml
-          fail_ci_if_error: true
+          fail_ci_if_error: false
       - uses: actions/upload-artifact@master
         with:
           name: colcon-logs-${{ matrix.os }}
